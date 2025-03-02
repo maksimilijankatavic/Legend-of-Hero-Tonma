@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="30" height="10" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="11">
+ <editorsettings>
+  <export target="../Map1.js" format="js"/>
+ </editorsettings>
+ <tileset firstgid="1" name="Background" tilewidth="32" tileheight="32" tilecount="180" columns="18">
+  <image source="free-swamp-game-tileset-pixel-art/2 Background/Background.png" width="576" height="324"/>
+ </tileset>
+ <tileset firstgid="181" name="Tileset" tilewidth="32" tileheight="32" tilecount="60" columns="10">
+  <image source="free-swamp-game-tileset-pixel-art/1 Tiles/Tileset.png" width="320" height="192"/>
+ </tileset>
+ <tileset firstgid="241" name="3" tilewidth="32" tileheight="32" tilecount="12" columns="3">
+  <image source="free-swamp-game-tileset-pixel-art/3 Objects/Trees/3.png" width="123" height="150"/>
+ </tileset>
+ <tileset firstgid="253" name="Preview A" tilewidth="32" tileheight="32" tilecount="24" columns="6">
+  <image source="Retro Impact Effect Pack 3/Preview A.gif" width="192" height="128"/>
+ </tileset>
+ <tileset firstgid="277" name="01" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="Tonma/01.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="278" name="02" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="Tonma/02.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="279" name="03" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="Tonma/03.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="280" name="04" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="Tonma/04.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="281" name="05" tilewidth="32" tileheight="32" tilecount="320" columns="20">
+  <image source="Tonma/05.png" width="640" height="512"/>
+ </tileset>
+ <tileset firstgid="601" name="01" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="Enemy1/01.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="602" name="02" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="Enemy1/02.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="603" name="03" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="Enemy1/03.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="604" name="06" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="Tonma/06.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="605" name="07" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="Tonma/07.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="606" name="08" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="Tonma/08.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="607" name="09" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="Tonma/09.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="608" name="04" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="Enemy1/04.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="609" name="05" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="Enemy1/05.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="610" name="06" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="Enemy1/06.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="611" name="6" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="free-swamp-game-tileset-pixel-art/3 Objects/Boxes/6.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="612" name="1" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="free-swamp-game-tileset-pixel-art/3 Objects/Pointers/1.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="613" name="2" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="free-swamp-game-tileset-pixel-art/3 Objects/Pointers/2.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="614" name="3" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="free-swamp-game-tileset-pixel-art/3 Objects/Pointers/3.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="615" name="4" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="free-swamp-game-tileset-pixel-art/3 Objects/Pointers/4.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="616" name="5" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="free-swamp-game-tileset-pixel-art/3 Objects/Pointers/5.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="617" name="5" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="free-swamp-game-tileset-pixel-art/3 Objects/Stones/5.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="618" name="01" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="Coin/01.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="619" name="02" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="Coin/02.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="620" name="03" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="Coin/03.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="621" name="04" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="Coin/04.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="622" name="05" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="Coin/05.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="623" name="01" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="Flag/01.png" width="32" height="32"/>
+ </tileset>
+ <layer id="1" name="Pozadina" width="30" height="10">
+  <data encoding="csv">
+1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,1,2,3,4,5,6,7,8,9,10,11,12,
+19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,19,20,21,22,23,24,25,26,27,28,29,30,
+37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,37,38,39,40,41,42,43,44,45,46,47,48,
+55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,55,56,57,58,59,60,61,62,63,64,65,66,
+73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,73,74,75,76,77,78,79,80,81,82,83,84,
+91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,91,92,93,94,95,96,97,98,99,100,101,102,
+109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,109,110,111,112,113,114,115,116,117,118,119,120,
+127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,127,128,129,130,131,132,133,134,135,136,137,138,
+145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,145,146,147,148,149,150,151,152,153,154,155,156,
+163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,163,164,165,166,167,168,169,170,171,172,173,174
+</data>
+ </layer>
+ <layer id="2" name="Platforme" width="30" height="10">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,212,214,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,211,0,0,0,0,212,214,0,0,0,0,0,0,0,0,0,181,182,182,182,182,182,183,0,0,0,
+213,213,214,0,0,0,0,0,0,0,0,0,0,0,0,0,181,182,223,213,231,202,202,202,202,202,203,0,0,0,
+0,0,0,0,0,212,214,0,0,0,0,0,181,182,182,182,199,202,203,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,211,0,0,0,191,192,184,202,203,0,0,0,0,181,182,183,0,0,0,181,182,182,
+0,0,0,0,0,0,0,0,0,0,0,0,191,192,193,0,0,0,0,0,181,206,192,204,183,0,0,201,202,202,
+182,182,183,0,0,227,182,182,182,183,0,0,191,192,193,0,0,0,0,181,206,192,192,192,204,183,0,0,0,0,
+192,192,238,182,182,237,192,192,192,238,182,182,237,192,238,182,182,182,182,206,192,192,192,192,192,204,182,182,182,182
+</data>
+ </layer>
+ <layer id="3" name="Ukras" width="30" height="10">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,616,0,0,0,0,241,242,243,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,616,0,244,245,246,0,0,0,0,0,0,0,0,612,0,0,0,0,0,0,
+617,0,614,0,0,0,0,0,0,0,0,0,247,248,249,0,0,0,612,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,250,251,611,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,615,0,0,0,0,0,0,0,0,0,0,0,0,0,613,0,0,0,0,0,613,611,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,612,0,0,0,0,0,611,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,615,0,0,0,0,0,617,0,0,0,0,0,0,0,0,0,615,617,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="4" name="Razno">
+  <properties>
+   <property name="class" value="items"/>
+  </properties>
+  <object id="4" name="Projektil" gid="328" x="32" y="128" width="32" height="32"/>
+  <object id="6" name="c5" gid="618" x="928" y="256" width="32" height="32"/>
+  <object id="7" name="c3" gid="618" x="544" y="96" width="32" height="32"/>
+  <object id="8" name="c2" gid="618" x="192" y="32" width="32" height="32"/>
+  <object id="9" name="c1" gid="618" x="160" y="128" width="32" height="32"/>
+  <object id="10" name="c4" gid="618" x="800" y="64" width="32" height="32"/>
+ </objectgroup>
+ <layer id="9" name="Flag" width="30" height="10">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,623,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="5" name="Tonma" width="30" height="10">
+  <properties>
+   <property name="class" value="Tonma"/>
+  </properties>
+  <data encoding="csv">
+277,278,279,280,277,0,604,605,606,607,604,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="6" name="Enemy1" width="30" height="10">
+  <properties>
+   <property name="class" value="Enemy1"/>
+  </properties>
+  <data encoding="csv">
+608,609,610,609,608,0,601,602,603,602,601,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+</map>
