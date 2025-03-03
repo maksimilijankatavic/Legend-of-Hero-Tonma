@@ -1,3 +1,5 @@
+![Legend of Hero Tonma](https://cdn2.steamgriddb.com/logo_thumb/75b54ca00c27574d0ef49303b3292db5.png)
+
 # Legend of Hero Tonma
 **Legend of Hero Tonma** je platformer s bočnim i uzdužnim pomicanjem u kojem igrač preuzima ulogu heroja Tonme. Cilj igre je prijeći različite razine i boriti se protiv neprijatelja. Tonma može bacati vatrene kugle kako bi uništio neprijatelje te skupljati razne predmete poput ključeva, škrinja i novčića.
 
