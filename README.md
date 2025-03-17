@@ -30,3 +30,6 @@ Kada igrač završi igru, prikazat će se **alert prozor** s konačnim rezultato
 
 ## Dodatne informacije
 Za više detalja o priči, mehanici igre, neprijateljima i bodovanju, pogledajte **Projekt.pdf**.
+
+## Napomena
+Ovaj zadatak razvijen je kao dio kolegija Objektno orijentirano programiranje (2. godina) na Prirodoslovno-matematičkom fakultetu Sveučilišta u Splitu.
